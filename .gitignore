@@ -1,2 +1,3 @@
 
 database supabase/Private/SUPABASE_KEY.js
+database supabase/Private/keypair.js

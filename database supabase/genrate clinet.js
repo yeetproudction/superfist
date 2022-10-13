@@ -6,4 +6,5 @@ const supabase = Supabase.createClient(supabaseUrl, supabaseKey);
 
 exports.supabase = {
   supabase
+  
 }
