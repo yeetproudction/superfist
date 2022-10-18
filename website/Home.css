@@ -8,7 +8,7 @@
 
 body {
     color: var(--p-bg-color);
-    background-color: var(--s-bg-color);
+    background-color: rgb(112, 154, 182);
     margin: 0;
     padding: 0;
 }
@@ -86,19 +86,24 @@ main {
     align-self: start;
   }
   
-  .inputext {
-    height: 20rem;
-    width: 67rem;
-    background-color: #aaa;  
+  .texti {
+    position: relative;
+    left: 5rem;
+  }
+  
+  .text {
+    background-color: var(--s-bg-color);
+    height: 5rem;
+    width: 60rem;
+    margin-left: 80px;
   }
 
-  .post {
-    height: 5rem;
-    width: 5rem;
+  .inputext {
     position: absolute;
-    bottom: 20rem;
-    right: 10rem;
-    font-size: 1.5rem;
-    -webkit-text-fill-color: #799F0C;
-    background-color: #00416A;
+    right: 50rem;
+
+    border-radius: 25px;
+    height: 20rem;
+    width: 20rem;
+    background-color: #aaa;  
   }
